@@ -191,7 +191,7 @@ input:focus {
 }
 
 .nicescroll-rails .nicescroll-cursors:hover {
-    background: #6CC254 !important;
+    background: #9e0042 !important;
 }
 
 .banner-bg,
@@ -235,7 +235,7 @@ input:focus {
 }
 
 span.green {
-    color: #6CC254;
+    color: #9e0042;
 }
 
 h6.space-caps {
@@ -338,7 +338,7 @@ header .side-nav .manu-btn span {
     width: 100%;
     height: 2px;
     left: 0;
-    background: #6CC254;
+    background: #9e0042;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -371,11 +371,13 @@ header .side-nav .manu-btn span:nth-child(3) {
 }
 
 header .side-nav .logo {
-    background: #6CC254;
-    padding: 5px;
+    background: #9e0042;
+    padding-top: 2px;
     width: 80px;
     height: 80px;
     line-height: 75px;
+    
+    
 }
 
 header .side-nav .logo a {
@@ -402,7 +404,7 @@ header .main-manu ul li:first-child a {
 
 header .main-manu ul li a.active,
 header .main-manu ul li a:hover {
-    color: #6CC254;
+    color: #9e0042;
 }
 
 header .main-manu span {
@@ -411,7 +413,7 @@ header .main-manu span {
     margin-left: 2px;
     padding: 0px 5px 0px 10px;
     color: #FFFFFF;
-    background: #6CC254;
+    background: #9e0042;
     clip-path: polygon(100% 0%, 100% 53%, 100% 100%, 10% 100%, 0% 50%, 10% 0);
     -webkit-transform: translateX(20px);
     -moz-transform: translateX(20px);
@@ -457,7 +459,7 @@ header .social-item {
     left: 0;
     padding: 27px 19px;
     color: #FFFFFF;
-    background: #6CC254;
+    background: #9e0042;
 }
 
 header .social-item ul {
@@ -501,7 +503,7 @@ header .social-item ul li a {
 }
 
 header .social-item ul li a:hover {
-    color: #6CC254;
+    color: #9e0042;
 }
 
 .overlay {
@@ -560,7 +562,7 @@ main {
     bottom: 0;
     width: 85%;
     height: 2px;
-    background: #6CC254;
+    background: #9e0042;
 }
 
 .banner .banner-text h2 {
@@ -581,8 +583,8 @@ main {
     color: #FFFFFF;
     margin-top: 40px;
     font-weight: 500;
-    border: 1px solid #6CC254 !important;
-    background: #6CC254;
+    border: 1px solid #9e0042 !important;
+    background: #9e0042;
     z-index: 5;
 }
 
@@ -591,12 +593,12 @@ main {
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     transform: scale(2);
-    background: #6CC254;
+    background: #9e0042;
 }
 
 .banner .banner-text a:hover {
     background: transparent;
-    color: #6CC254;
+    color: #9e0042;
 }
 
 .banner .banner-text a:hover::before,
@@ -656,7 +658,7 @@ main {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     transform: scale(0);
-    background: #6CC254;
+    background: #9e0042;
     z-index: -5;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -675,7 +677,7 @@ main {
 
 .portfolio-demo-btn button.active,
 .portfolio-demo-btn button:hover {
-    background: #6CC254;
+    background: #9e0042;
     color: #FFFFFF;
 }
 
@@ -703,7 +705,7 @@ main {
 }
 
 .portfolio .portfolio-demo .portfolio-item a:hover {
-    border-color: #6CC254;
+    border-color: #9e0042;
 }
 
 .portfolio .portfolio-demo a img {
@@ -817,7 +819,7 @@ main {
 }
 
 .about .about-info li i {
-    color: #6CC254;
+    color: #9e0042;
 }
 
 .about .about-info li p {
@@ -830,7 +832,7 @@ main {
     height: 3px;
     width: 80px;
     margin-top: 30px;
-    background: #6CC254;
+    background: #9e0042;
 }
 
 .about .about-social {
@@ -867,7 +869,7 @@ main {
 
 .about .about-social li .venobox i {
     margin-left: 10px;
-    color: #6CC254;
+    color: #9e0042;
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
     transform: scale(1.5);
@@ -882,15 +884,15 @@ main {
 
 .about .about-social li a:hover {
     color: #FFFFFF;
-    background: #6CC254;
+    background: #9e0042;
 }
 
 .about .about-cv a {
     padding: 10px 45px;
     color: #FFFFFF;
     margin-top: 40px;
-    border: 1px solid #6CC254 !important;
-    background: #6CC254;
+    border: 1px solid #9e0042 !important;
+    background: #9e0042;
     z-index: 5;
 }
 
@@ -899,12 +901,12 @@ main {
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     transform: scale(2);
-    background: #6CC254;
+    background: #9e0042;
 }
 
 .about .about-cv a:hover {
     background: transparent;
-    color: #6CC254;
+    color: #9e0042;
 }
 
 .about .about-cv a:hover::before,
@@ -935,7 +937,7 @@ main {
 
 .resume .resume-tab li a::before,
 .resume .resume-tab li a::after {
-    background: #6CC254;
+    background: #9e0042;
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     transform: scale(0);
@@ -943,7 +945,7 @@ main {
 
 .resume .resume-tab li a.active,
 .resume .resume-tab li a:hover {
-    background: #6CC254;
+    background: #9e0042;
     color: #FFFFFF;
 }
 
@@ -974,7 +976,7 @@ main {
 
 .resume .card-body .resume-icon i {
     font-size: 40px;
-    color: #6CC254;
+    color: #9e0042;
     margin-bottom: 20px;
 }
 
@@ -1012,7 +1014,7 @@ main {
     position: relative;
     overflow: visible;
     border-radius: 0px 50px 50px 0px;
-    background-color: #6CC254;
+    background-color: #9e0042;
 }
 
 .resume .progress-bar .pur-count {
@@ -1053,7 +1055,7 @@ main {
     bottom: 0;
     height: 2px;
     width: 100%;
-    background: #6CC254;
+    background: #9e0042;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     transform: scaleX(0);
@@ -1081,7 +1083,7 @@ main {
 
 .services .card-body .services-icon i {
     font-size: 30px;
-    color: #6CC254;
+    color: #9e0042;
     margin-bottom: 20px;
 }
 
@@ -1158,7 +1160,7 @@ main {
 .blog .card-body a {
     padding: 10px 30px;
     font-size: 15px;
-    color: #6CC254;
+    color: #9e0042;
     margin-bottom: -8px;
     background: #FFFFFF;
     z-index: 5;
@@ -1170,11 +1172,11 @@ main {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     transform: scale(0);
-    background: #6CC254;
+    background: #9e0042;
 }
 
 .blog .card-body a:hover {
-    background: #6CC254;
+    background: #9e0042;
     color: #FFFFFF;
 }
 
@@ -1235,7 +1237,7 @@ main {
 
 .contact-card i {
     font-size: 32px;
-    color: #61b15a;
+    color: #9e0042;
     margin-bottom: 15px;
 }
 
@@ -1257,7 +1259,7 @@ main {
 .btn-cta {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #61b15a;
+    background-color: #9e0042;
     color: white;
     font-size: 16px;
     border-radius: 8px;
@@ -1266,7 +1268,7 @@ main {
 }
 
 .btn-cta:hover {
-    background-color: #4b8e45;
+    background-color: #9e0042;
     transform: scale(1.05);
 }
   
