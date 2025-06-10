@@ -103,7 +103,7 @@
                     <div class="row">
                         <div class="col-lg-7 order-last order-lg-first">
                             <div class="banner-text">
-                               <h6><span class="dash" id="current-date"></span></h6>
+                               <h6><span id="dateTime"></span></h6>
                                 <h6 class="space-caps">Welcome to My Portfolio, My Name is Shweta Jadhav</h6>
                                 <h2>Design makes anything When you call myself</h2>
                                 <p class="des-text">I'm a professional <b>Graphic designer</b> since 2021. I love design, development very much.
@@ -137,11 +137,24 @@
 
 </body>
 <script>
-  // JavaScript to display today's date
-  const options = { day: '2-digit', month: 'long', year: 'numeric' };
-  const today = new Date().toLocaleDateString('en-GB', options);
-  document.getElementById('current-date').textContent = today;
+  function updateDateTime() {
+    const now = new Date();
+
+    // Date format: 15 April, 2025
+    const options = { day: 'numeric', month: 'long', year: 'numeric' };
+    const date = now.toLocaleDateString('en-US', options);
+
+    // Time format: 10:30:45 AM (12-hour format)
+    const time = now.toLocaleTimeString('en-US');
+
+    document.getElementById('dateTime').textContent = date + ' ' + time;
+  }
+
+  // Update immediately and then every second
+  updateDateTime();
+  setInterval(updateDateTime, 1000);
 </script>
+
 
 
 </html>
