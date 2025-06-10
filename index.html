@@ -85,10 +85,10 @@
                     <div class="social-item">
                         <span class="social-title">Social</span>
                         <ul>
-                            <li><a href="https://www.linkedin.com/in/esmael-elsaiad-850563208/"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/esmael.elsayad.7"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://www.behance.net/shwetajadhav11" target="_blank"><i class="fab fa-behance"></i></a></li>
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                         </ul>
                     </div>
                     <!-- Social Item End -->
@@ -103,7 +103,7 @@
                     <div class="row">
                         <div class="col-lg-7 order-last order-lg-first">
                             <div class="banner-text">
-                                <h6><span class="dash">15 April, 2025</span></h6>
+                               <h6><span class="dash" id="current-date"></span></h6>
                                 <h6 class="space-caps">Welcome to My Portfolio, My Name is Shweta Jadhav</h6>
                                 <h2>Design makes anything When you call myself</h2>
                                 <p class="des-text">I'm a professional <b>Graphic designer</b> since 2021. I love design, development very much.
@@ -136,6 +136,12 @@
     <script src="js/vendor/popper.min.js"></script>
 
 </body>
+<script>
+  // JavaScript to display today's date
+  const options = { day: '2-digit', month: 'long', year: 'numeric' };
+  const today = new Date().toLocaleDateString('en-GB', options);
+  document.getElementById('current-date').textContent = today;
+</script>
 
 
 </html>
